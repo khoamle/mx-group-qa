@@ -1,4 +1,4 @@
-# The MX Group UI test
+# The Mx Group UI test
 
 ## RSpec tests for home page, contact us page, marketing page
 
