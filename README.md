@@ -1,24 +1,24 @@
-# README
+# The MX Group UI test
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## RSpec tests for home page, contact us page, marketing page
 
-Things you may want to cover:
+* Test when user clicks on home page video, Facebook, LinkedIn, and twitter link
+* Test when user fills out contact us page
+* Test when user clicks on sales, bottom-line results, and technology information page
 
-* Ruby version
+To run all RSpec tests:
 
-* System dependencies
+```bash
+rspec
+```
 
-* Configuration
 
-* Database creation
+## Gems Used
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```ruby
+gem 'capybara'
+gem 'site_prism'
+gem 'selenium-webdriver'
+gem 'chromedriver-helper'
+gem 'faker'
+```
